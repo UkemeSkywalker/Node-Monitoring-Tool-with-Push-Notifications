@@ -38,5 +38,9 @@ python node_monitor.py
     python node_monitor_v1.2.py 
 ```
 
-
 ![node monitor](./images/image2.JPG)
+
+- When a threshold is reached the alerting system would push notification to email.
+
+![email notification](./images/image3.JPG)
+
