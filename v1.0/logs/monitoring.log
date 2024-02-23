@@ -1,0 +1,13 @@
+2024-02-23 15:00:24,562 - __main__ - INFO - System monitoring started...
+2024-02-23 15:00:24,562 - __main__ - INFO - CPU Usage: 0.0%
+2024-02-23 15:00:24,562 - __main__ - INFO - Memory Usage: 45.5%
+2024-02-23 15:00:24,562 - __main__ - INFO - Disk Usage: 11.0%
+2024-02-23 15:00:24,562 - __main__ - INFO - Network Stats: snetio(bytes_sent=55615096, bytes_recv=362907117, packets_sent=259152, packets_recv=297340, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 15:00:29,563 - __main__ - INFO - CPU Usage: 32.2%
+2024-02-23 15:00:29,563 - __main__ - INFO - Memory Usage: 45.0%
+2024-02-23 15:00:29,564 - __main__ - INFO - Disk Usage: 11.0%
+2024-02-23 15:00:29,564 - __main__ - INFO - Network Stats: snetio(bytes_sent=55637863, bytes_recv=362939174, packets_sent=259366, packets_recv=297605, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 15:00:34,564 - __main__ - INFO - CPU Usage: 44.7%
+2024-02-23 15:00:34,567 - __main__ - INFO - Memory Usage: 45.0%
+2024-02-23 15:00:34,567 - __main__ - INFO - Disk Usage: 11.0%
+2024-02-23 15:00:34,567 - __main__ - INFO - Network Stats: snetio(bytes_sent=55654776, bytes_recv=362957992, packets_sent=259532, packets_recv=297816, errin=0, errout=0, dropin=0, dropout=0)
