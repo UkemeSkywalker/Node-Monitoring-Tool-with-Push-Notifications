@@ -1,11 +1,23 @@
+import os
 import logging
 import time
 import psutil  # Import psutil library for system monitoring
 
 # Set up logging
 def setup_logging():
+
+    # Create a "logs" directory if it doesn't exist
+    if not os.path.exists("logs"):
+        os.makedirs("logs")
+
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
+
+    # Create file handler and set level to debug
+    log_file = os.path.join("logs", "monitoring.log")
+    file_handler = logging.FileHandler(log_file)
+    file_handler.setLevel(logging.DEBUG)
+
 
     # Create console handler and set level to debug
     console_handler = logging.StreamHandler()
@@ -14,9 +26,11 @@ def setup_logging():
     # Create formatter and add it to the handler
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     console_handler.setFormatter(formatter)
+    file_handler.setFormatter(formatter)
 
     # Add the console handler to the logger
     logger.addHandler(console_handler)
+    logger.addHandler(file_handler)
 
     return logger
 
@@ -36,7 +50,7 @@ def monitor_system(logger):
         logger.info(f"Network Stats: {network_stats}")
 
         # Sleep for some time before checking again
-        time.sleep(5)
+        time.sleep(10)
 
 def main():
     # Setup logging
