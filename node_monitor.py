@@ -3,6 +3,10 @@ import logging
 import time
 import psutil  # Import psutil library for system monitoring
 
+
+# Global Variables
+CPU_Threshold = 20
+
 # Set up logging
 def setup_logging():
 
@@ -49,8 +53,11 @@ def monitor_system(logger):
         logger.info(f"Disk Usage: {disk_percent}%")
         logger.info(f"Network Stats: {network_stats}")
 
+        if cpu_percent > CPU_Threshold :
+            logger.warning(f"CPU Usage has passed its threshold: {cpu_percent}%")
+
         # Sleep for some time before checking again
-        time.sleep(10)
+        time.sleep(5)
 
 def main():
     # Setup logging
