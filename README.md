@@ -14,7 +14,7 @@ python node_monitor.py
 
 ### Implementation V1.2
 
-- To activate email notifications feature, you need to signup (resend)[https://resend.com/] and create an api key.
+- To activate email notifications feature, you need to signup [resend](https://resend.com/) and create an api key.
 
 - Navigate to version directory
 
