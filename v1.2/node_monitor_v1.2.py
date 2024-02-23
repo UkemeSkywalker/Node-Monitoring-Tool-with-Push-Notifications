@@ -10,7 +10,7 @@ load_dotenv()
 
 
 # Global Variables
-CPU_Threshold = 20
+CPU_Threshold = 75
 Disk_Threshold = 80
 Mem_Threshold = 90
 
@@ -83,10 +83,14 @@ def monitor_system(logger):
         if cpu_percent > CPU_Threshold :
             logger.warning(f"CPU Usage has passed its threshold: {cpu_percent}%")
             send_email_alert("Supra Nodes CPU Usage Alert", f"CPU Usage has passed its threshold: {cpu_percent}%")
+
         if mem_percent > Mem_Threshold :
             logger.warning(f"Memory Usage has passed its threshold: {mem_percent}%")
+            send_email_alert("Supra Nodes Memory Usage Alert", f"Memory Usage has passed its threshold: {mem_percent}%")
+
         if disk_percent > Disk_Threshold :
             logger.warning(f"Disk Usage has passed its threshold: {disk_percent}%")
+            send_email_alert("Supra Nodes Disk Usage Alert", f"Disk Usage has passed its threshold: {disk_percent}%")
         
 
         # Sleep for some time before checking again
