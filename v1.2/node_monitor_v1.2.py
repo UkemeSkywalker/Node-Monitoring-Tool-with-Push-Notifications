@@ -2,12 +2,20 @@ import os
 import logging
 import time
 import psutil  # Import psutil library for system monitoring
+import resend # SMTP Server
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 # Global Variables
-CPU_Threshold = 75
+CPU_Threshold = 20
 Disk_Threshold = 80
 Mem_Threshold = 90
+
+# Email Configuration
+emailTo = "ukemzyreloaded@gmail.com"
 
 # Set up logging
 def setup_logging():
@@ -40,6 +48,21 @@ def setup_logging():
 
     return logger
 
+# Setup email notification 
+def send_email_alert(to,subject, body):
+    resend.api_key = os.getenv("RESEND_API_KEY")
+
+    params = {
+        "from": "Supra Oracle <onboarding@resend.dev>",
+        "to": ["ukemzyreloaded@gmail.com"],
+        "subject": subject,
+        "html": body,
+    }
+
+    email = resend.Emails.send(params)
+    print(email)
+
+
 # Function to monitor system resources
 def monitor_system(logger):
     while True:
@@ -55,9 +78,10 @@ def monitor_system(logger):
         logger.info(f"Disk Usage: {disk_percent}%")
         logger.info(f"Network Stats: {network_stats}")
 
-        # Check threshold and trigger alert
+        # Check threshold and trigger alert & send email notifications, when warning notifications are triggered
         if cpu_percent > CPU_Threshold :
             logger.warning(f"CPU Usage has passed its threshold: {cpu_percent}%")
+            send_email_alert({emailTo}, "Supra Nodes CPU Usage Alert", f"CPU Usage has passed its threshold: {cpu_percent}%")
         if mem_percent > Mem_Threshold :
             logger.warning(f"Memory Usage has passed its threshold: {mem_percent}%")
         if disk_percent > Disk_Threshold :
@@ -65,7 +89,7 @@ def monitor_system(logger):
         
 
         # Sleep for some time before checking again
-        time.sleep(5)
+        time.sleep(30)
 
 def main():
     # Setup logging

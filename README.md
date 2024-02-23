@@ -1,4 +1,4 @@
-![node monitor](./image.JPG)
+![node monitor](./images/image.JPG)
 # Node-Monitoring-Tool-with-Push-Notifications
 Python application for monitoring nodes, collecting alerts, notifications, and logs, and analyzing them to provide notifications in the console.
 
@@ -8,4 +8,4 @@ Run
 ```
 python node_monitor.py
 ```
-![node monitor](./image2.JPG)
+![node monitor](./images/image2.JPG)
