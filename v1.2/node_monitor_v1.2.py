@@ -10,12 +10,12 @@ load_dotenv()
 
 
 # Global Variables
-CPU_Threshold = 75
+CPU_Threshold = 20
 Disk_Threshold = 80
 Mem_Threshold = 90
 
 # Email Configuration
-emailTo = "ukemzyreloaded@gmail.com"
+emailTo = os.getenv("EMAIL_TO")
 
 # Set up logging
 def setup_logging():
@@ -49,12 +49,13 @@ def setup_logging():
     return logger
 
 # Setup email notification 
-def send_email_alert(to,subject, body):
+def send_email_alert(subject, body):
     resend.api_key = os.getenv("RESEND_API_KEY")
+    recipient_email = os.getenv("RECIPIENT_EMAIL")
 
     params = {
         "from": "Supra Oracle <onboarding@resend.dev>",
-        "to": [to],
+        "to": [recipient_email],
         "subject": subject,
         "html": body,
     }
@@ -81,7 +82,7 @@ def monitor_system(logger):
         # Check threshold and trigger alert & send email notifications, when warning notifications are triggered
         if cpu_percent > CPU_Threshold :
             logger.warning(f"CPU Usage has passed its threshold: {cpu_percent}%")
-            send_email_alert(emailTo, "Supra Nodes CPU Usage Alert", f"CPU Usage has passed its threshold: {cpu_percent}%")
+            send_email_alert("Supra Nodes CPU Usage Alert", f"CPU Usage has passed its threshold: {cpu_percent}%")
         if mem_percent > Mem_Threshold :
             logger.warning(f"Memory Usage has passed its threshold: {mem_percent}%")
         if disk_percent > Disk_Threshold :
