@@ -341,3 +341,150 @@
 2024-02-23 13:34:43,029 - __main__ - INFO - Disk Usage: 11.0%
 2024-02-23 13:34:43,029 - __main__ - INFO - Network Stats: snetio(bytes_sent=32303822, bytes_recv=348407820, packets_sent=128106, packets_recv=147787, errin=0, errout=0, dropin=0, dropout=0)
 2024-02-23 13:34:43,029 - __main__ - WARNING - CPU Usage has passed its threshold: 65.9%
+2024-02-23 13:34:48,033 - __main__ - INFO - CPU Usage: 69.1%
+2024-02-23 13:34:48,033 - __main__ - INFO - Memory Usage: 49.7%
+2024-02-23 13:34:48,033 - __main__ - INFO - Disk Usage: 11.0%
+2024-02-23 13:34:48,034 - __main__ - INFO - Network Stats: snetio(bytes_sent=32323350, bytes_recv=348423897, packets_sent=128258, packets_recv=147965, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:34:48,034 - __main__ - WARNING - CPU Usage has passed its threshold: 69.1%
+2024-02-23 13:34:53,034 - __main__ - INFO - CPU Usage: 64.3%
+2024-02-23 13:34:53,035 - __main__ - INFO - Memory Usage: 49.9%
+2024-02-23 13:34:53,035 - __main__ - INFO - Disk Usage: 11.0%
+2024-02-23 13:34:53,035 - __main__ - INFO - Network Stats: snetio(bytes_sent=32344318, bytes_recv=348441205, packets_sent=128438, packets_recv=148168, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:34:53,035 - __main__ - WARNING - CPU Usage has passed its threshold: 64.3%
+2024-02-23 13:34:58,036 - __main__ - INFO - CPU Usage: 63.4%
+2024-02-23 13:34:58,036 - __main__ - INFO - Memory Usage: 49.9%
+2024-02-23 13:34:58,036 - __main__ - INFO - Disk Usage: 11.0%
+2024-02-23 13:34:58,036 - __main__ - INFO - Network Stats: snetio(bytes_sent=32365271, bytes_recv=348458446, packets_sent=128625, packets_recv=148368, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:34:58,036 - __main__ - WARNING - CPU Usage has passed its threshold: 63.4%
+2024-02-23 13:35:03,037 - __main__ - INFO - CPU Usage: 61.9%
+2024-02-23 13:35:03,037 - __main__ - INFO - Memory Usage: 50.1%
+2024-02-23 13:35:03,038 - __main__ - INFO - Disk Usage: 11.0%
+2024-02-23 13:35:03,038 - __main__ - INFO - Network Stats: snetio(bytes_sent=32383936, bytes_recv=348473875, packets_sent=128779, packets_recv=148546, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:35:03,038 - __main__ - WARNING - CPU Usage has passed its threshold: 61.9%
+2024-02-23 13:35:08,038 - __main__ - INFO - CPU Usage: 50.1%
+2024-02-23 13:35:08,039 - __main__ - INFO - Memory Usage: 50.3%
+2024-02-23 13:35:08,039 - __main__ - INFO - Disk Usage: 11.0%
+2024-02-23 13:35:08,039 - __main__ - INFO - Network Stats: snetio(bytes_sent=32405803, bytes_recv=348491804, packets_sent=128968, packets_recv=148757, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:35:08,039 - __main__ - WARNING - CPU Usage has passed its threshold: 50.1%
+2024-02-23 13:35:13,040 - __main__ - INFO - CPU Usage: 34.0%
+2024-02-23 13:35:13,040 - __main__ - INFO - Memory Usage: 50.3%
+2024-02-23 13:35:13,040 - __main__ - INFO - Disk Usage: 10.3%
+2024-02-23 13:35:13,041 - __main__ - INFO - Network Stats: snetio(bytes_sent=32465091, bytes_recv=348567312, packets_sent=129337, packets_recv=149157, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:35:13,041 - __main__ - WARNING - CPU Usage has passed its threshold: 34.0%
+2024-02-23 13:35:18,044 - __main__ - INFO - CPU Usage: 32.8%
+2024-02-23 13:35:18,044 - __main__ - INFO - Memory Usage: 50.7%
+2024-02-23 13:35:18,044 - __main__ - INFO - Disk Usage: 10.3%
+2024-02-23 13:35:18,044 - __main__ - INFO - Network Stats: snetio(bytes_sent=32489622, bytes_recv=348590768, packets_sent=129556, packets_recv=149412, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:35:18,044 - __main__ - WARNING - CPU Usage has passed its threshold: 32.8%
+2024-02-23 13:35:23,045 - __main__ - INFO - CPU Usage: 34.8%
+2024-02-23 13:35:23,045 - __main__ - INFO - Memory Usage: 50.8%
+2024-02-23 13:35:23,045 - __main__ - INFO - Disk Usage: 10.3%
+2024-02-23 13:35:23,045 - __main__ - INFO - Network Stats: snetio(bytes_sent=32574333, bytes_recv=348692536, packets_sent=130125, packets_recv=150030, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:35:23,045 - __main__ - WARNING - CPU Usage has passed its threshold: 34.8%
+2024-02-23 13:41:27,378 - __main__ - INFO - System monitoring started...
+2024-02-23 13:41:27,378 - __main__ - INFO - CPU Usage: 0.0%
+2024-02-23 13:41:27,378 - __main__ - INFO - Memory Usage: 49.6%
+2024-02-23 13:41:27,378 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:41:27,378 - __main__ - INFO - Network Stats: snetio(bytes_sent=35060670, bytes_recv=349870409, packets_sent=140682, packets_recv=162294, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:41:27,379 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:41:32,379 - __main__ - INFO - CPU Usage: 23.2%
+2024-02-23 13:41:32,380 - __main__ - INFO - Memory Usage: 49.5%
+2024-02-23 13:41:32,380 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:41:32,380 - __main__ - INFO - Network Stats: snetio(bytes_sent=35078813, bytes_recv=349885606, packets_sent=140820, packets_recv=162461, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:41:32,380 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:41:37,380 - __main__ - INFO - CPU Usage: 24.5%
+2024-02-23 13:41:37,381 - __main__ - INFO - Memory Usage: 49.5%
+2024-02-23 13:41:37,381 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:41:37,381 - __main__ - INFO - Network Stats: snetio(bytes_sent=35095952, bytes_recv=349898566, packets_sent=140950, packets_recv=162608, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:41:37,381 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:41:42,382 - __main__ - INFO - CPU Usage: 24.5%
+2024-02-23 13:41:42,382 - __main__ - INFO - Memory Usage: 49.6%
+2024-02-23 13:41:42,382 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:41:42,382 - __main__ - INFO - Network Stats: snetio(bytes_sent=35116343, bytes_recv=349915099, packets_sent=141119, packets_recv=162801, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:41:42,382 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:41:47,382 - __main__ - INFO - CPU Usage: 25.1%
+2024-02-23 13:41:47,383 - __main__ - INFO - Memory Usage: 49.3%
+2024-02-23 13:41:47,383 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:41:47,383 - __main__ - INFO - Network Stats: snetio(bytes_sent=35137113, bytes_recv=349932449, packets_sent=141286, packets_recv=162995, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:41:47,383 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:41:52,383 - __main__ - INFO - CPU Usage: 29.5%
+2024-02-23 13:41:52,383 - __main__ - INFO - Memory Usage: 49.5%
+2024-02-23 13:41:52,383 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:41:52,383 - __main__ - INFO - Network Stats: snetio(bytes_sent=35152746, bytes_recv=349943387, packets_sent=141395, packets_recv=163117, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:41:52,384 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:41:57,384 - __main__ - INFO - CPU Usage: 24.9%
+2024-02-23 13:41:57,384 - __main__ - INFO - Memory Usage: 49.5%
+2024-02-23 13:41:57,385 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:41:57,385 - __main__ - INFO - Network Stats: snetio(bytes_sent=35172394, bytes_recv=349958990, packets_sent=141550, packets_recv=163298, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:41:57,385 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:42:02,385 - __main__ - INFO - CPU Usage: 31.2%
+2024-02-23 13:42:02,386 - __main__ - INFO - Memory Usage: 49.7%
+2024-02-23 13:42:02,386 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:02,386 - __main__ - INFO - Network Stats: snetio(bytes_sent=35188567, bytes_recv=349970164, packets_sent=141665, packets_recv=163423, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:02,386 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:42:07,386 - __main__ - INFO - CPU Usage: 29.6%
+2024-02-23 13:42:07,387 - __main__ - INFO - Memory Usage: 50.0%
+2024-02-23 13:42:07,387 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:07,387 - __main__ - INFO - Network Stats: snetio(bytes_sent=35207176, bytes_recv=349984790, packets_sent=141802, packets_recv=163590, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:07,387 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:42:12,388 - __main__ - INFO - CPU Usage: 27.1%
+2024-02-23 13:42:12,388 - __main__ - INFO - Memory Usage: 50.4%
+2024-02-23 13:42:12,388 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:12,388 - __main__ - INFO - Network Stats: snetio(bytes_sent=35227437, bytes_recv=350000553, packets_sent=141963, packets_recv=163770, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:12,388 - __main__ - WARNING - Memory Usage has passed its threshold: 50.4%
+2024-02-23 13:42:12,388 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:42:17,389 - __main__ - INFO - CPU Usage: 25.2%
+2024-02-23 13:42:17,389 - __main__ - INFO - Memory Usage: 50.4%
+2024-02-23 13:42:17,389 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:17,389 - __main__ - INFO - Network Stats: snetio(bytes_sent=35245735, bytes_recv=350014246, packets_sent=142098, packets_recv=163916, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:17,389 - __main__ - WARNING - Memory Usage has passed its threshold: 50.4%
+2024-02-23 13:42:17,389 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:42:22,390 - __main__ - INFO - CPU Usage: 27.4%
+2024-02-23 13:42:22,390 - __main__ - INFO - Memory Usage: 50.5%
+2024-02-23 13:42:22,390 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:22,390 - __main__ - INFO - Network Stats: snetio(bytes_sent=35267660, bytes_recv=350035376, packets_sent=142270, packets_recv=164133, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:22,390 - __main__ - WARNING - Memory Usage has passed its threshold: 50.5%
+2024-02-23 13:42:22,390 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:42:27,391 - __main__ - INFO - CPU Usage: 24.4%
+2024-02-23 13:42:27,391 - __main__ - INFO - Memory Usage: 50.5%
+2024-02-23 13:42:27,391 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:27,391 - __main__ - INFO - Network Stats: snetio(bytes_sent=35286303, bytes_recv=350049784, packets_sent=142416, packets_recv=164296, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:27,391 - __main__ - WARNING - Memory Usage has passed its threshold: 50.5%
+2024-02-23 13:42:27,391 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:42:32,392 - __main__ - INFO - CPU Usage: 24.2%
+2024-02-23 13:42:32,392 - __main__ - INFO - Memory Usage: 50.3%
+2024-02-23 13:42:32,392 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:32,392 - __main__ - INFO - Network Stats: snetio(bytes_sent=35305421, bytes_recv=350064862, packets_sent=142558, packets_recv=164464, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:32,392 - __main__ - WARNING - Memory Usage has passed its threshold: 50.3%
+2024-02-23 13:42:32,392 - __main__ - WARNING - Disk Usage has passed its threshold: 10.5%
+2024-02-23 13:42:37,393 - __main__ - INFO - CPU Usage: 25.1%
+2024-02-23 13:42:37,393 - __main__ - INFO - Memory Usage: 50.4%
+2024-02-23 13:42:37,393 - __main__ - INFO - Disk Usage: 10.6%
+2024-02-23 13:42:37,393 - __main__ - INFO - Network Stats: snetio(bytes_sent=35322898, bytes_recv=350077384, packets_sent=142684, packets_recv=164601, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:37,393 - __main__ - WARNING - Memory Usage has passed its threshold: 50.4%
+2024-02-23 13:42:37,394 - __main__ - WARNING - Disk Usage has passed its threshold: 10.6%
+2024-02-23 13:42:44,175 - __main__ - INFO - System monitoring started...
+2024-02-23 13:42:44,176 - __main__ - INFO - CPU Usage: 0.0%
+2024-02-23 13:42:44,176 - __main__ - INFO - Memory Usage: 50.6%
+2024-02-23 13:42:44,176 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:44,176 - __main__ - INFO - Network Stats: snetio(bytes_sent=35349644, bytes_recv=350100005, packets_sent=142912, packets_recv=164864, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:49,176 - __main__ - INFO - CPU Usage: 33.4%
+2024-02-23 13:42:49,177 - __main__ - INFO - Memory Usage: 50.8%
+2024-02-23 13:42:49,177 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:49,177 - __main__ - INFO - Network Stats: snetio(bytes_sent=35367420, bytes_recv=350112963, packets_sent=143040, packets_recv=165009, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:54,178 - __main__ - INFO - CPU Usage: 26.9%
+2024-02-23 13:42:54,178 - __main__ - INFO - Memory Usage: 50.9%
+2024-02-23 13:42:54,178 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:54,178 - __main__ - INFO - Network Stats: snetio(bytes_sent=35392759, bytes_recv=350128703, packets_sent=143166, packets_recv=165153, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:42:59,179 - __main__ - INFO - CPU Usage: 22.4%
+2024-02-23 13:42:59,179 - __main__ - INFO - Memory Usage: 50.9%
+2024-02-23 13:42:59,179 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:42:59,179 - __main__ - INFO - Network Stats: snetio(bytes_sent=35424176, bytes_recv=350161834, packets_sent=143443, packets_recv=165484, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:43:04,180 - __main__ - INFO - CPU Usage: 24.3%
+2024-02-23 13:43:04,180 - __main__ - INFO - Memory Usage: 50.8%
+2024-02-23 13:43:04,180 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:43:04,180 - __main__ - INFO - Network Stats: snetio(bytes_sent=35447065, bytes_recv=350182217, packets_sent=143626, packets_recv=165713, errin=0, errout=0, dropin=0, dropout=0)
+2024-02-23 13:43:09,181 - __main__ - INFO - CPU Usage: 22.6%
+2024-02-23 13:43:09,181 - __main__ - INFO - Memory Usage: 50.7%
+2024-02-23 13:43:09,181 - __main__ - INFO - Disk Usage: 10.5%
+2024-02-23 13:43:09,181 - __main__ - INFO - Network Stats: snetio(bytes_sent=35469133, bytes_recv=350200361, packets_sent=143779, packets_recv=165893, errin=0, errout=0, dropin=0, dropout=0)

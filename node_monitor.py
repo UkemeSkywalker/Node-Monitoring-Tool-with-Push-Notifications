@@ -5,7 +5,9 @@ import psutil  # Import psutil library for system monitoring
 
 
 # Global Variables
-CPU_Threshold = 20
+CPU_Threshold = 75
+Disk_Threshold = 80
+Mem_Threshold = 90
 
 # Set up logging
 def setup_logging():
@@ -53,8 +55,14 @@ def monitor_system(logger):
         logger.info(f"Disk Usage: {disk_percent}%")
         logger.info(f"Network Stats: {network_stats}")
 
+        # Check threshold and trigger alert
         if cpu_percent > CPU_Threshold :
             logger.warning(f"CPU Usage has passed its threshold: {cpu_percent}%")
+        if mem_percent > Mem_Threshold :
+            logger.warning(f"Memory Usage has passed its threshold: {mem_percent}%")
+        if disk_percent > Disk_Threshold :
+            logger.warning(f"Disk Usage has passed its threshold: {disk_percent}%")
+        
 
         # Sleep for some time before checking again
         time.sleep(5)
